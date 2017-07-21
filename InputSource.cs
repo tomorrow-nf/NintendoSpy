@@ -21,7 +21,7 @@ namespace NintendoSpy
             NES, SNES, N64, GAMECUBE, GAMECUBESMASHBOX, PC360, PAD
         };
 
-        static public readonly InputSource DEFAULT = NES
+        static public readonly InputSource DEFAULT = NES;
 
         public string TypeTag { get; private set; }
         public string Name { get; private set; }
