@@ -14,7 +14,7 @@
   <!-- ***Modifier Button Customization Guidelines*** 
   
   What I've found to be the easiest way to set these values is to take the maximum X or Y axis values
-  from Melee, through the 20XX input display, then subtract 0.1 from positive values, add 1 to negative values.
+  from Melee, through the 20XX input display, then subtract 0.1 from positive values (or add 1 to a negative value).
   
   Positive and negative values must be set separately, else you'll run through 0 and show them as always active.
   To find max and min, hold a single cardinal direction with the modifier, then change to a diagonal input.
