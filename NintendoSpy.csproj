@@ -288,72 +288,117 @@
     <Resource Include="skins\gamecube-simple\GCN_Controllers\GCN_NintendoSpy_Black_No_Frills.png" />
     <Resource Include="skins\gamecube-simple\README.txt" />
     <Resource Include="skins\gamecube-simple\skin.xml" />
-    <Content Include="skins\gamecube-smashbox-controller\A.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\B.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\C-stick.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Dpad-Down.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Dpad-Left.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Dpad-Right.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Dpad-Up.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Black.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Blue.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Green.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Orange.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Pink.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Purple.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Red.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_White.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\L-all.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\L-bar.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\R-bar.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\RL-full.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\skin.xml"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Start.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Stick.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\X.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Y.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox-controller\Z.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\Blue.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\Green.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\Grey.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\Red.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\skin.xml"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\Smashbox.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\White.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
-    <Content Include="skins\gamecube-smashbox\Yellow.png"> 
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
+    <Content Include="skins\gamecube-smashbox-controller\A.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\B.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\C-stick.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Dpad-Down.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Dpad-Left.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Dpad-Right.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Dpad-Up.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Black.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Pink.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Purple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_Red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\GCN_Controller_White.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\L-all.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\L-bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\R-bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\RL-full.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\skin.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Start.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Stick.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\X.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Y.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox-controller\Z.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Ddown.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Dleft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Dright.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Dup.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Grey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\skin.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Smashbox.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\White.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="skins\gamecube-smashbox\Yellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="skins\generic-skinhelper\source.fla" />
     <Content Include="skins\gamecube-custom\GCN_Controllers_PSDs.zip">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
