@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="Gamecube Smashbox" author="NFreak" type="gamecubesmashbox">
+
+    <background name="Smashbox" image="Smashbox.png" />
+
+	<button name="start" image="White.png" x="466" y="52" width="66" height="66" />
+	
+	<!-- Movement buttons -->
+    <rangebutton name="lstick_x" image="Red.png" x="166" y="158" width="66" height="66" from="-1.0" to="-0.1"/>
+    <rangebutton name="lstick_x" image="Red.png" x="303" y="158" width="66" height="66" from="0.1" to="1.0"/>
+    <rangebutton name="lstick_y" image="Red.png" x="235" y="90" width="66" height="66" from="0.1" to="1.0"/>
+    <rangebutton name="lstick_y" image="Red.png" x="234" y="158" width="66" height="66" from="-1.0" to="-0.1"/>
+
+	<!-- Modifier buttons -->
+	<rangebutton name="lstick_x" image="White.png" x="270" y="275" width="66" height="66" from="-0.8" to="-0.5"/>
+	<rangebutton name="lstick_x" image="White.png" x="389" y="274" width="66" height="66" from="0.5" to="0.8"/>
+	<rangebutton name="lstick_y" image="White.png" x="329" y="241" width="66" height="66" from="0.5" to="0.8"/>
+	<rangebutton name="lstick_y" image="White.png" x="329" y="307" width="66" height="66" from="-0.8" to="-0.5"/>
+	
+	<!-- C buttons -->
+	<rangebutton name="cstick_x" image="Yellow.png" x="540" y="275" width="66" height="66" from="-1.0" to="-0.1"/>
+	<rangebutton name="cstick_x" image="Yellow.png" x="659" y="274" width="66" height="66" from="0.1" to="1.0"/>
+	<rangebutton name="cstick_y" image="Yellow.png" x="599" y="241" width="66" height="66" from="0.1" to="1.0"/>
+	<rangebutton name="cstick_y" image="Yellow.png" x="599" y="307" width="66" height="66" from="-1.0" to="-0.1"/>
+	
+	<button name="a" image="Green.png" x="762" y="90" width="66" height="66" />
+	<button name="b" image="Red.png" x="632" y="158" width="66" height="66" />
+	<button name="x" image="Grey.png" x="697" y="137" width="66" height="66" />
+	<button name="y" image="Grey.png" x="697" y="69" width="66" height="66" />
+	<button name="z" image="Blue.png" x="632" y="90" width="66" height="66" />
+
+	<button name="r" image="White.png" x="823" y="191" width="66" height="66" />
+	<button name="l" image="White.png" x="762" y="158" width="66" height="66" />
+	
+	<!-- Shield tilt -->
+	<rangebutton name="trig_l" image="White.png" x="106" y="198" width="66" height="66" from="0.2" to="0.9"/>
+  <rangebutton name="trig_r" image="White.png" x="106" y="198" width="66" height="66" from="0.2" to="0.9"/>
+
+</skin>
