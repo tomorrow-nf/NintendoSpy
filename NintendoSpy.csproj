@@ -90,6 +90,7 @@
     <Compile Include="Readers\ControllerState.cs" />
     <Compile Include="Readers\DelayedControllerReader.cs" />
     <Compile Include="Readers\GameCube.cs" />
+    <Compile Include="Readers\GameCubeSmashbox.cs" />
     <Compile Include="Readers\IControllerReader.cs" />
     <Compile Include="Readers\BlinkReductionFilter.cs" />
     <Compile Include="Readers\Nintendo64.cs" />
@@ -287,6 +288,39 @@
     <Resource Include="skins\gamecube-simple\GCN_Controllers\GCN_NintendoSpy_Black_No_Frills.png" />
     <Resource Include="skins\gamecube-simple\README.txt" />
     <Resource Include="skins\gamecube-simple\skin.xml" />
+    <Resource Include="skins\gamecube-smashbox-controller\A.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\B.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\C-stick.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\Dpad-Down.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\Dpad-Left.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\Dpad-Right.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\Dpad-Up.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_Black.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_Blue.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_Green.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_Orange.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_Pink.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_Purple.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_Red.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\GCN_Controller_White.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\L-all.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\L-bar.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\R-bar.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\RL-full.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\skin.xml" />
+    <Resource Include="skins\gamecube-smashbox-controller\Start.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\Stick.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\X.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\Y.png" />
+    <Resource Include="skins\gamecube-smashbox-controller\Z.png" />
+    <Resource Include="skins\gamecube-smashbox\Blue.png" />
+    <Resource Include="skins\gamecube-smashbox\Green.png" />
+    <Resource Include="skins\gamecube-smashbox\Grey.png" />
+    <Resource Include="skins\gamecube-smashbox\Red.png" />
+    <Resource Include="skins\gamecube-smashbox\skin.xml" />
+    <Resource Include="skins\gamecube-smashbox\Smashbox.png" />
+    <Resource Include="skins\gamecube-smashbox\White.png" />
+    <Resource Include="skins\gamecube-smashbox\Yellow.png" />
     <Content Include="skins\generic-skinhelper\source.fla">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
