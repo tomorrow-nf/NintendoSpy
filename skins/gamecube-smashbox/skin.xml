@@ -1,68 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skin name="Gamecube Smashbox" author="NFreak" type="gamecubesmashbox">
-
-    <background name="Smashbox" image="Smashbox.png" />
-
+	<background name="Smashbox" image="Smashbox.png" />
+	
 	<button name="start" image="White.png" x="466" y="52" width="66" height="66" />
-	
+
 	<!-- Movement buttons -->
-  <rangebutton name="lstick_x" image="Red.png" x="166" y="158" width="66" height="66" from="-1.0" to="-0.1"/>
-  <rangebutton name="lstick_x" image="Red.png" x="303" y="158" width="66" height="66" from="0.1" to="1.0"/>
-  <rangebutton name="lstick_y" image="Red.png" x="235" y="90" width="66" height="66" from="0.1" to="1.0"/>
-  <rangebutton name="lstick_y" image="Red.png" x="234" y="158" width="66" height="66" from="-1.0" to="-0.1"/>
+	<rangebutton name="lstick_x" image="Red.png" x="166" y="158" width="66" height="66" from="-1.0" to="-0.1"/>
+	<rangebutton name="lstick_x" image="Red.png" x="303" y="158" width="66" height="66" from="0.1" to="1.0"/>
+	<rangebutton name="lstick_y" image="Red.png" x="235" y="90" width="66" height="66" from="0.1" to="1.0"/>
+	<rangebutton name="lstick_y" image="Red.png" x="234" y="158" width="66" height="66" from="-1.0" to="-0.1"/>
 
-  <!-- ***Modifier Button Customization Guidelines*** 
-  
-  What I've found to be the easiest way to set these values is to take the maximum X or Y axis values
-  from Melee, through the 20XX input display, then subtract 0.1 from positive values (or add 1 to a negative value).
-  
-  Positive and negative values must be set separately, else you'll run through 0 and show them as always active.
-  To find max and min, hold a single cardinal direction with the modifier, then change to a diagonal input.
-  
-  i.e. My X-axis values with X1 are min=0.2875, max=0.3375, so I set them "From" and "To" for X1 to 0.1875 and 0.2375.
-  
-  This only works for single button presses; the angles from pressing X1+X2 or Y1+Y2 will not work with this display.
-  -->
-  
-	<!-- Modifier buttons, positive (X1, X2, Y1, Y2) -->
+	<!-- Modifier buttons -->
+	<!-- X1 -->
 	<rangebutton name="lstick_x" image="White.png" x="270" y="275" width="66" height="66" from="0.1875" to="0.2375"/>
-  <rangebutton name="lstick_x" image="White.png" x="329" y="307" width="66" height="66" from="0.4125" to="0.5750"/>
-  <rangebutton name="lstick_y" image="White.png" x="329" y="241" width="66" height="66" from="0.1875" to="0.2500"/>
-  <rangebutton name="lstick_y" image="White.png" x="389" y="274" width="66" height="66" from="0.4000" to="0.5750"/>
+	<rangebutton name="lstick_x" image="White.png" x="270" y="275" width="66" height="66" from="-0.2375" to="-0.1875"/>
 
-  <!-- Modifier buttons, negative (X1, X2, Y1, Y2) -->
-  <rangebutton name="lstick_x" image="White.png" x="270" y="275" width="66" height="66" from="-0.2375" to="-0.1875"/>
-  <rangebutton name="lstick_x" image="White.png" x="329" y="307" width="66" height="66" from="-0.5750" to="-0.4125"/>
-  <rangebutton name="lstick_y" image="White.png" x="329" y="241" width="66" height="66" from="-0.2500" to="-0.1875"/>
-  <rangebutton name="lstick_y" image="White.png" x="389" y="274" width="66" height="66" from="-0.5750" to="-0.4000"/>
-
-  <!-- D-pad buttons, active when toggled -->
-  <button name="left" image="DLeft.png" x="270" y="275" width="66" height="66"/>
-  <button name="right" image="DRight.png" x="389" y="274" width="66" height="66"/>
-  <button name="up" image="DUp.png" x="329" y="241" width="66" height="66"/>
-  <button name="down" image="DDown.png" x="329" y="307" width="66" height="66"/>
+	<!-- X2 -->
+	<rangebutton name="lstick_x" image="White.png" x="329" y="307" width="66" height="66" from="0.4125" to="0.5750"/>
+	<rangebutton name="lstick_x" image="White.png" x="329" y="307" width="66" height="66" from="-0.5750" to="-0.4125"/>
 	
+	<!-- X3 (not yet working) - ->
+	<rangebutton name="lstick_x" image="White.png" x="270" y="275" width="66" height="66" from="0.2984" to="0.2986"/>
+	<rangebutton name="lstick_x" image="White.png" x="270" y="275" width="66" height="66" from="-0.2375" to="-0.1875"/>
+	<rangebutton name="lstick_x" image="White.png" x="329" y="307" width="66" height="66" from="0.4125" to="0.5750"/>
+	<rangebutton name="lstick_x" image="White.png" x="329" y="307" width="66" height="66" from="-0.5750" to="-0.4125"/> -->
+	
+	<!-- Y1 -->
+	<rangebutton name="lstick_y" image="White.png" x="329" y="241" width="66" height="66" from="0.1875" to="0.2500"/>
+	<rangebutton name="lstick_y" image="White.png" x="329" y="241" width="66" height="66" from="-0.2500" to="-0.1875"/>
+	
+	<!-- Y2 -->
+	<rangebutton name="lstick_y" image="White.png" x="389" y="274" width="66" height="66" from="0.4000" to="0.5750"/>
+	<rangebutton name="lstick_y" image="White.png" x="389" y="274" width="66" height="66" from="-0.5750" to="-0.4000"/>
+	
+	<!-- Y3 (not yet working) - ->
+	<rangebutton name="lstick_y" image="White.png" x="329" y="241" width="66" height="66" from="0.1875" to="0.2500"/>
+	<rangebutton name="lstick_y" image="White.png" x="329" y="241" width="66" height="66" from="-0.2500" to="-0.1875"/> -->
+
+	
+	<!-- D-pad buttons, active when toggled -->
+	<button name="left" image="DLeft.png" x="270" y="275" width="66" height="66"/>
+	<button name="right" image="DRight.png" x="389" y="274" width="66" height="66"/>
+	<button name="up" image="DUp.png" x="329" y="241" width="66" height="66"/>
+	<button name="down" image="DDown.png" x="329" y="307" width="66" height="66"/>
+
 	<!-- C buttons -->
 	<rangebutton name="cstick_x" image="Yellow.png" x="540" y="275" width="66" height="66" from="-1.0" to="-0.1"/>
 	<rangebutton name="cstick_x" image="Yellow.png" x="659" y="274" width="66" height="66" from="0.1" to="1.0"/>
 	<rangebutton name="cstick_y" image="Yellow.png" x="599" y="241" width="66" height="66" from="0.1" to="1.0"/>
 	<rangebutton name="cstick_y" image="Yellow.png" x="599" y="307" width="66" height="66" from="-1.0" to="-0.1"/>
-	
-  <!-- Buttons -->
+
+	<!-- Buttons -->
 	<button name="a" image="Green.png" x="762" y="90" width="66" height="66" />
 	<button name="b" image="Red.png" x="632" y="158" width="66" height="66" />
 	<button name="x" image="Grey.png" x="697" y="137" width="66" height="66" />
 	<button name="y" image="Grey.png" x="697" y="69" width="66" height="66" />
 	<button name="z" image="Blue.png" x="632" y="90" width="66" height="66" />
 
-  <button name="l" image="White.png" x="762" y="158" width="66" height="66" />
-  <button name="r" image="White.png" x="823" y="191" width="66" height="66" />
-	
+	<button name="l" image="White.png" x="762" y="158" width="66" height="66" />
+	<button name="r" image="White.png" x="823" y="191" width="66" height="66" />
+
 	<!-- Shield tilt -->
 	<rangebutton name="trig_l" image="White.png" x="106" y="198" width="66" height="66" from="0.2" to="0.9"/>
-  <rangebutton name="trig_r" image="White.png" x="106" y="198" width="66" height="66" from="0.2" to="0.9"/>
-  <!-- Hack to make it appear that L and R aren't released with shield tilt pressed -->
-  <rangebutton name="trig_l" image="White.png" x="762" y="158" width="66" height="66" from="0.2" to="0.9"/>
-  <rangebutton name="trig_r" image="White.png" x="823" y="191" width="66" height="66" from="0.2" to="0.9"/>
+	<rangebutton name="trig_r" image="White.png" x="106" y="198" width="66" height="66" from="0.2" to="0.9"/>
+	<!-- Hack to make it appear that L and R aren't released with shield tilt pressed -->
+	<rangebutton name="trig_l" image="White.png" x="762" y="158" width="66" height="66" from="0.2" to="0.9"/>
+	<rangebutton name="trig_r" image="White.png" x="823" y="191" width="66" height="66" from="0.2" to="0.9"/>
 
 </skin>
